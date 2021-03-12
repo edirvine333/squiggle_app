@@ -10,7 +10,7 @@ GitHub Repo: [squiggle_app](https://github.com/edirvine333/squiggle_app)
 
 
 Authors:  Ed Irvine  
-Attribution:  Tony Grimes
+Attribution:  Tony Grimes (Instructor)  
 
 Modules:  
 npm day.js  https://www.npmjs.com/package/dayjs
