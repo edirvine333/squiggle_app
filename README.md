@@ -1,7 +1,7 @@
 #  SQUIGGLE APP
 ##  Version 0.1.0
 
-GitHub Repo: []()  
+GitHub Repo: [squiggle_app](https://github.com/edirvine333/squiggle_app)  
 
 ## Instructions:
 
@@ -18,4 +18,4 @@ npm day.js  https://www.npmjs.com/package/dayjs
 Copyright 2021 SAIT-WBDV Class.
 
 Licensed under a CC BY-NC 4.0 License.  
-https://creativecommons.org/publicdomain/zero/1.0/
+https://creativecommons.org/licenses/by-nc/4.0/  
