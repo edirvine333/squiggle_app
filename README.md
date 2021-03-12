@@ -1,5 +1,5 @@
 #  SQUIGGLE APP
-##  Version 0.1.0
+##  Version 0.1.1
 
 GitHub Repo: [squiggle_app](https://github.com/edirvine333/squiggle_app)  
 
