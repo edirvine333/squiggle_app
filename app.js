@@ -9,7 +9,9 @@ console.log(`Today's Date: ${date1}`)
 console.log(`End of Program: ${date2}`)
 
 let date3 = date2.diff(date1, "day", true);
-console.log(`There are ${date3} days left in this program.  Good luck!!`)
+let weeksLeft = date2.diff(date1,"week",false)
+let daysLeft = parseInt(date3-(7*weeksLeft));
+console.log(`There are ${weeksLeft} week(s) and ${daysLeft} day(s) left in this program.  Good luck!!`)
 
 
 
