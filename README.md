@@ -10,7 +10,7 @@ GitHub Repo: [squiggle_app](https://github.com/edirvine333/squiggle_app)
 2.  Type `npm start` and hit Enter
 
 
-Authors:  Ed Irvine  
+Authors:  Ed Irvine, Rohit Mahto   
 Attribution:  Tony Grimes (Instructor)  
 
 Modules:  
