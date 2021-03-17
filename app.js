@@ -1,17 +1,39 @@
 //  Script which calculates the days left in the WBDV program
 
 const dayjs = require('dayjs')
+const readline = require("readline"); // Console ReadLine
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
-const date1 = dayjs()
-const date2 = dayjs("2021-04-23")
 
-console.log(`Today's Date: ${date1}`)
-console.log(`End of Program: ${date2}`)
+let date1 = null;
+let date2 = null;
 
-let date3 = date2.diff(date1, "day", true);
-let weeksLeft = date2.diff(date1,"week",false)
-let daysLeft = parseInt(date3-(7*weeksLeft));
-console.log(`There are ${weeksLeft} week(s) and ${daysLeft} day(s) left in this program.  Good luck!!`)
+rl.question("Enter first date in YYYY-MM-DD, for today enter y: ", function(fDate) { // Date1
+    
+    if(fDate =="y" || fDate =="Y") date1=dayjs();
+    else date1 = dayjs(fDate);
+    
+    rl.question("Enter second date in YYYY-MM-DD: ", function(sDate) {  // Date 2
+        date2=dayjs(sDate);
+        rl.close();
+    });
+});
+
+rl.on("close", function() { // After all inputs
+    console.log(`First date: ${date1}`)
+    console.log(`Second date: ${date2}`)
+    
+    let date3 = date2.diff(date1, "day", true);
+    let weeksLeft = date2.diff(date1,"week",false)
+    let daysLeft = parseInt(date3-(7*weeksLeft));
+    console.log(`There are ${weeksLeft} week(s) and ${daysLeft} day(s) left in this program.  Good luck!!`)
+    process.exit(0);
+});
+
+
 
 
 
