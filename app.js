@@ -35,8 +35,6 @@ rl.on("close", function() { // After all inputs
 
 
 
-
-
 //  ***************************************************  COMMENTS  **************************************************************
 //
 //  Line 3:  Declares a variable called dayjs and loads the module `dayjs`, making several methods(?) available
