@@ -7,7 +7,7 @@ GitHub Repo: [squiggle_app](https://github.com/edirvine333/squiggle_app)
 
 1.  Navigate to the Squiggle folder using the CLI
 2.  type `npm install` and hit enter
-2.  Type `npm start` and hit Enter
+3.  Type `npm start` and hit Enter
 
 
 Authors:  Ed Irvine, Rohit Mahto   
